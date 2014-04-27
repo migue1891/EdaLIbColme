@@ -21,7 +21,8 @@ public class Catalogo {
         this.Nombre = Nombre;
     }
 
-    public Catalogo() {
+    public Catalogo(int idTipo) {
+        this.idTipo=idTipo;
     }
 
     public int getIdTipo() {

@@ -11,24 +11,26 @@ package practica;
  * @author Miguel
  */
 public class Empleado extends Persona {
+    private String idEmpleado;
     private String Direccion;
     private int telefono;
     private int  nSS;
     private String turno;
     private float sueldo;
-    private String idEmpleado;
 
-    public Empleado(String Direccion, int telefono, int nSS, String turno, float sueldo, String idEmpleado) {
-        super();
+    public Empleado(String idEmpleado, String Direccion, int telefono, int nSS, String turno, float sueldo) {
+        
+        this.idEmpleado = idEmpleado;
         this.Direccion = Direccion;
         this.telefono = telefono;
         this.nSS = nSS;
         this.turno = turno;
         this.sueldo = sueldo;
-        this.idEmpleado = idEmpleado;
     }
 
-    public Empleado() {
+    public Empleado(String idEmpleado) {
+        
+        this.idEmpleado = idEmpleado;
     }
     
     

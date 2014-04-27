@@ -6,11 +6,16 @@
 
 package practica;
 
+import edalib.list.singlelink.SStack;
+
 /**
  *
  * @author Miguel
  */
-public abstract class Cliente {
+public class Estanteria extends SStack {
     
-    public void mostrarDatos(){}
+    
+    public void revisarEstanteria(){}
+    public void ordenarEstanteria(){}
+    
 }

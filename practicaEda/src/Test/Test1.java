@@ -4,13 +4,14 @@
  * and open the template in the editor.
  */
 
-package practica;
+package Test;
 
 /**
  *
  * @author Miguel
  */
-public abstract class Cliente {
+public class Test1 extends Test{
     
-    public void mostrarDatos(){}
+    
+    
 }
