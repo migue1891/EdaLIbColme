@@ -69,11 +69,7 @@ public class Perchero extends SQueue{
                 else{contador2++;}
             }
        }
-           
-            
-        }
-        
-//       IMPLEMENTACION CON EL METODO DE LA BURBUJA
+          //       IMPLEMENTACION CON EL METODO DE LA BURBUJA
 //       ProductoRopa[] arrProd = new ProductoRopa[this.getSize()];
 //       for(int i=0;i<this.getSize();i++){
 //            arrProd[i]=(ProductoRopa) this.dequeue();
@@ -92,7 +88,14 @@ public class Perchero extends SQueue{
 //        }
 //        for (ProductoRopa arrProd1 : arrProd) {
 //            this.enqueue(arrProd1);
-//        }
+//        } 
+            
+        }
+        
+    
+    
+    
+
 //        
     }
     
