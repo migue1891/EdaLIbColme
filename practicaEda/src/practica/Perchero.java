@@ -23,9 +23,10 @@ public class Perchero extends SQueue{
      boolean bandera=false;
      while(bandera==false){
      ProductoRopa actual = (ProductoRopa) this.dequeue();
-     System.out.println()
+     System.out.println();
      }
-     
+          return prodSelec;
+
     }
     
     public void ordenarPerchero(){
